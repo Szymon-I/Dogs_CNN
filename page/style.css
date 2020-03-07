@@ -1,0 +1,16 @@
+body{
+    background-color: orange;
+    font-family: 'Baloo Bhai', cursive;
+    color: white;
+}
+
+.image-feed{
+    padding-top: 5%;
+    padding-bottom: 1%;
+    font-size: 2em;
+}
+
+.bowl-icon{
+    height: 10rem;
+    color: white;
+}
