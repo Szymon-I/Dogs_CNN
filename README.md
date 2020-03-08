@@ -138,7 +138,7 @@ performed on an ongoing basis for each 'batch' in the network.
 
 The application of the generator allowed to train the network and achieve the following results:
 
-loss: 3.6067 - acc: 0.2553 - val_loss: 13.6974 - val_acc: 0.
+loss: 3.6067 - acc: 0.2553 - val_loss: 13.6974 - val_acc: 0.1501
 
 The network used was based on another network, the construction of which will be described later in this work.
 
@@ -176,7 +176,7 @@ better results.
 
 The best result for the above architecture:
 
-loss: 13.9754 - acc: 0.1329 - val_loss: 13.8049 - val_acc: 0.
+loss: 13.9754 - acc: 0.1329 - val_loss: 13.8049 - val_acc: 0.1435
 
 
 ## NETWORK ARCHITECTURE STRUCTURE:
@@ -250,7 +250,7 @@ replacing her own, which in this case consisted in the classification of 10 dog 
 
 Example network result:
 
-loss: 0.0042 - acc: 0.9990 - val_loss: 1.6310 - val_acc: 0.
+loss: 0.0042 - acc: 0.9990 - val_loss: 1.6310 - val_acc: 0.7523
 
 As you can see, the use of the transfer learning method resulted in an increase
 precision from 15% to over 70%. Despite working on the same database.
@@ -288,7 +288,7 @@ Unfortunately, generating new photos did not increase the precision of the model
 
 Result after re-training the network:
 
-val_loss: 2.886842060420248 val_acc: 0.
+val_loss: 2.8868 val_acc: 0.37083
 
 
 ## VALIDATION OF EXAMPLES:
@@ -348,7 +348,7 @@ samoyed_1.jpg -> Samoyed
 
 Achieved parameters:
 
-loss: 5.083901882171631 acc: 0.
+loss: 5.08390 acc: 0.57142
 
 These are only sample data, and the precision of individual classifiers varies significantly,
 so when choosing other evaluation photos, the precision can be up to 100%
